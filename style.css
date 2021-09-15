@@ -89,7 +89,7 @@ header li img{
 }
 
 .border{
-   border-bottom: #24292e;
+   border-bottom: solid 1px #24292e;
    width: 100%;
 }
 
@@ -98,9 +98,3 @@ header li img{
    justify-content: space-around;
 }
 
-
-.border{
-   background-color:　solid 1px #4a4a4a;
-   width     : 100%;
-   
-}
