@@ -98,3 +98,33 @@ header li img{
    justify-content: space-around;
 }
 
+.Contact{
+   display: flex;
+  flex-direction: column;
+}
+
+.form{
+   display: flex;
+   justify-content: space-around;
+}
+
+.form p{
+   margin-top: 5px;
+}
+
+.NAME{
+   width: 75%;
+   margin-bottom: 10px;
+   border: solid 1px #c8c8c8;
+   padding: 0;
+    line-height: 28px;
+    height: 43px;
+}
+
+.textarea{
+   width: 75%;
+   border: solid 1px #c8c8c8;
+   padding: 0;
+    line-height: 28px;
+    height: 100px;
+}
