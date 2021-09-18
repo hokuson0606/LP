@@ -95,7 +95,12 @@ header li img{
 
 .News-contents{
    display: flex;
-   justify-content: space-around;
+   
+}
+
+.date{
+   margin-right: 70px;
+   margin-left: 20px;
 }
 
 .Contact{
@@ -110,6 +115,7 @@ header li img{
 
 .form p{
    margin-top: 5px;
+   font-size: 14px;
 }
 
 .NAME{
@@ -125,8 +131,9 @@ header li img{
    width: 76%;
    border: solid 1px #c8c8c8;
    padding: 0;
-    line-height: 28px;
-    height: 100px;
+   line-height: 28px;
+   height: 160px;
+   margin-bottom: 50px;
 } 
 
 .form p {
@@ -134,6 +141,16 @@ header li img{
    margin-top: 5px;
 }
 
+.submit{
+   margin: 0 auto;
+}
+
+.submit input{
+   background-color: #24292e;
+   color: white;
+   padding: 15px 80px;
+}
+
 @media screen and (max-width:600px) {
-   header{}
+   
    }
