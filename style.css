@@ -98,3 +98,42 @@ header li img{
    justify-content: space-around;
 }
 
+.Contact{
+   display: flex;
+  flex-direction: column;
+}
+
+.form{
+   display: flex;
+   justify-content: space-around;
+}
+
+.form p{
+   margin-top: 5px;
+}
+
+.NAME{
+   width: 76%;
+   margin-bottom: 10px;
+   border: solid 1px #c8c8c8;
+   padding: 0;
+    line-height: 28px;
+    height: 43px;
+}
+
+.textarea{
+   width: 76%;
+   border: solid 1px #c8c8c8;
+   padding: 0;
+    line-height: 28px;
+    height: 100px;
+} 
+
+.form p {
+   flex-basis: 10%;
+   margin-top: 5px;
+}
+
+@media screen and (max-width:600px) {
+   header{}
+   }
