@@ -5,6 +5,7 @@ html {
  }
  body {
    color: #24292e;
+   margin:0;
  }
  a {
    text-decoration: none;
@@ -126,31 +127,44 @@ header li img{
     line-height: 28px;
     height: 43px;
 }
-
 .textarea{
-   width: 76%;
-   border: solid 1px #c8c8c8;
-   padding: 0;
-   line-height: 28px;
-   height: 160px;
-   margin-bottom: 50px;
+width: 76%;
+border: solid 1px #c8c8c8;
+padding: 0;
+line-height: 28px;
+height: 160px;
+margin-bottom: 50px;
 } 
 
 .form p {
-   flex-basis: 10%;
-   margin-top: 5px;
+flex-basis: 10%;
+margin-top: 5px;
 }
 
 .submit{
-   margin: 0 auto;
+margin: 0 auto;
 }
 
 .submit input{
+background-color: #24292e;
+color: white;
+padding: 15px 80px;
+}
+
+footer{
+   text-align: center;
+   
+}
+
+footer p{
    background-color: #24292e;
    color: white;
-   padding: 15px 80px;
+   margin: 0;
+   font-size: 10px;
+   padding:10px 20px ;
 }
 
 @media screen and (max-width:600px) {
-   
-   }
+
+}
+
