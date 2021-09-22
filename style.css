@@ -18,8 +18,17 @@ html {
  }
 
 h1{
+   font-weight: 700;
+}
+
+ header h1{
    font-weight: 500;
 }
+
+ul{
+   padding: 0;
+}
+
 
 header{
    max-width: 960px;
@@ -53,8 +62,9 @@ header li img{
    width: 30px;
 }
 
-.mainvisual{
+.mainvisual img{
    height: 420px;
+   margin-bottom: 35px;
 }
 
 .container{
@@ -62,7 +72,7 @@ header li img{
    margin: 0 auto;
    padding: 0 4%;
    align-items: center;
-   margin-bottom: 130px;
+   margin-bottom: 70px;
 }
 
 .section-title{
@@ -153,13 +163,13 @@ margin: 0 auto;
 .submit input{
 background-color: #24292e;
 color: white;
-padding: 15px 80px;
+padding: 15px 85px;
 }
 
 .submit input:hover{
    background-color: white;
    color: #24292e;
-   padding: 15px 90px;
+   padding: 15px 85px;
    }
 
 footer{
@@ -180,8 +190,70 @@ footer p{
 header{
    display: flex;
    flex-direction: column;
-   justify-content: none;
+   height: inherit;
+   
+}
+
+header h1{
+  margin: 20px 0 0;
+}
+
+
+
+header ul{
+   margin: 0 0 10px;
+ }
+
+ .mainvisual{
+    margin-bottom: 60px;
+ }
+
+.images ul{
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+}
+
+.images li{
+   width: 100%;
+   margin-bottom: 23px;
+}
+
+.News-contents{
+   display: flex;
+   flex-direction: column;
+   margin: 10px 0 10px;
+   font-size: 14px;
+}
+
+.date{
+   margin:0 5px 0;
+}
+
+.News-contents p{
+   margin:0 5px 0;
+}
+
+
+.form{
+   display: flex;
+   flex-direction: column;
+}
+
+.form p{
+   margin: 0;
+}
+
+.NAME{
+   width: 100%;
+   border: solid 1px #c8c8c8;
+   padding: 0;
+    line-height: 28px;
+    height: 43px;
+}
+
+.textarea{
+   width: 100%;
 }
 
 }
-
