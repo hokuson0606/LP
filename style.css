@@ -16,6 +16,11 @@ html {
  li {
    list-style: none;
  }
+
+h1{
+   font-weight: 500;
+}
+
 header{
    max-width: 960px;
    display: flex;
@@ -133,7 +138,7 @@ border: solid 1px #c8c8c8;
 padding: 0;
 line-height: 28px;
 height: 160px;
-margin-bottom: 50px;
+margin-bottom: 40px;
 } 
 
 .form p {
@@ -151,6 +156,12 @@ color: white;
 padding: 15px 80px;
 }
 
+.submit input:hover{
+   background-color: white;
+   color: #24292e;
+   padding: 15px 90px;
+   }
+
 footer{
    text-align: center;
    
@@ -165,6 +176,12 @@ footer p{
 }
 
 @media screen and (max-width:600px) {
+
+header{
+   display: flex;
+   flex-direction: column;
+   justify-content: none;
+}
 
 }
 
